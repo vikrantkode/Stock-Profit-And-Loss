@@ -1,7 +1,41 @@
-:root{
-   
-}
+
 
 body{
-    background-color: grey;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ip-elmnt{
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+label {
+    margin: 0.5rem;
+    font-size: large;
+    margin-bottom: 5rem;
+    color: black;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 0.2rem;
+    padding: 0.3rem;
+}
+
+#check-btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 0.4rem;
+}
+
+#output-div {
+    font-size: x-large;
 }
